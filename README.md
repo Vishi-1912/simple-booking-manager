@@ -1,5 +1,5 @@
 # simple-booking-manager
-A basic booking management system with minimal features.
+A simple full-stack booking management system built to demonstrate core MERN stack fundamentals, clean code structure, and basic deployment.
 
 ## Tech Stack
 - Node.js
@@ -15,10 +15,10 @@ A basic booking management system with minimal features.
 ## Setup
 
 1. Clone the repository
-2. Install dependencies
+2. Install dependencies for both backend and frontend
 3. Set up environment variables
-4. Run the server
-5. Run the client
+4. Run the backend server
+5. Run the frontend client
 
 ### Features
 - Create booking
