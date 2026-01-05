@@ -19,3 +19,8 @@ A basic booking management system with minimal features.
 3. Set up environment variables
 4. Run the server
 5. Run the client
+
+### Features
+- Create booking
+- View bookings
+- Basic validation
