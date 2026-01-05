@@ -29,13 +29,14 @@ A basic booking management system with minimal features.
 - Added a basic backend API test using Jest and Supertest
 - Test covers booking creation endpoint
 
+### Deployment
+- Backend deployed on Render
+- Frontend deployed on Vercel
+- Database hosted on MongoDB Atlas
+
 ### What I Learned
 - Structuring a full-stack app
 - Handling API validation
 - Connecting frontend & backend
 - Testing with Jest and Supertest
-
-### Deployment
-- Backend deployed on Render
-- Frontend deployed on Vercel
-- Database hosted on MongoDB Atlas
+- Deploying to Render and Vercel
