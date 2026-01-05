@@ -25,7 +25,17 @@ A basic booking management system with minimal features.
 - View bookings
 - Basic validation
 
+### Testing
+- Added a basic backend API test using Jest and Supertest
+- Test covers booking creation endpoint
+
 ### What I Learned
 - Structuring a full-stack app
 - Handling API validation
 - Connecting frontend & backend
+- Testing with Jest and Supertest
+
+### Deployment
+- Backend deployed on Render
+- Frontend deployed on Vercel
+- Database hosted on MongoDB Atlas
