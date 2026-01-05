@@ -5,7 +5,7 @@ const API = import.meta.env.VITE_API_URL;
 export async function createBooking(data: any) {
     try {
         const response = await axios.post(
-            `${API}/bookings`,
+            `${API}/api/bookings`,
             data,
         );
         return response?.data;
@@ -16,7 +16,7 @@ export async function createBooking(data: any) {
 
 export async function getBookings() {
     try {
-        const response = await axios.get(`${API}/bookings`);
+        const response = await axios.get(`${API}/api/bookings`);
         return response?.data;
     } catch (error: any) {
         throw error?.response?.data;
