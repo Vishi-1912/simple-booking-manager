@@ -24,3 +24,8 @@ A basic booking management system with minimal features.
 - Create booking
 - View bookings
 - Basic validation
+
+### What I Learned
+- Structuring a full-stack app
+- Handling API validation
+- Connecting frontend & backend

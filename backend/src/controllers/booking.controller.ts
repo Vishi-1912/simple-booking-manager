@@ -10,17 +10,17 @@ export const createBooking = async (req: Request, res: Response) => {
     }
 
     const booking = await Booking.create({ name, email, date, slot });
-    res.status(201).json(booking);
+    res.status(201).json({ success: true, booking });
   } catch (error) {
-    res.status(500).json({ message: "Failed to create booking" });
+    res.status(500).json({ success: false, message: "Failed to create booking" });
   }
 };
 
 export const getBookings = async (_: Request, res: Response) => {
   try {
     const bookings = await Booking.find().sort({ createdAt: -1 });
-    res.json(bookings);
+    res.json({ success: true, bookings });
   } catch (error) {
-    res.status(500).json({ message: "Failed to fetch bookings" });
+    res.status(500).json({ success: false, message: "Failed to fetch bookings" });
   }
 };
